@@ -1,0 +1,23 @@
+﻿body {
+    font-family: Arial, Arial, Helvetica, sans-serif, sans-serif;
+    /*background-image: url('../img/scottish-fold-cat-1.jpg');*/
+}
+
+.p5Canvas {
+    border: 1px solid black;
+}
+
+.nav-container {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+
+.nav-container a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
