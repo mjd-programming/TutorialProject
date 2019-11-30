@@ -1,4 +1,8 @@
-﻿body {
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     font-family: Arial, Arial, Helvetica, sans-serif, sans-serif;
     /*background-image: url('../img/scottish-fold-cat-1.jpg');*/
     margin: 0;
@@ -46,7 +50,11 @@
 }
 
 .nav-container a:hover {
-    background-color: red;
+    background-color: grey;
+}
+
+.nav-container a:active {
+    color: #e9e9e9;   
 }
 
 .w3-code {
