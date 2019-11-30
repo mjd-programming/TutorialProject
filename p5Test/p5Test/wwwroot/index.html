@@ -2,29 +2,144 @@
 <html>
 <head>
     <meta charset="utf-8" />
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
     <title>p5.js Tutorial Site</title>
 </head>
 <body>
-    <h1>Hello</h1>
+    <a name="home"></a>
+    <h1 class="page-header">p5.js Tutorial: Image Editor</h1>
 
     <div class="nav-container">
-        <a id="home" href="index.html">Home</a>
-        <a id="about" href="#">About</a>
-        <a id="getting-started" href="#">Getting Started</a>
-        <a id="tutorial" href="#">Tutorial</a>
-        <a id="documentation" href="#">Documentation</a>
-        <a id="references" href="#">References</a>
-        <a id="examples" href="#">Examples</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#getting-started">Getting Started</a>
+        <a href="#tutorial">Tutorial</a>
+        <a href="#documentation">Documentation</a>
+        <a href="#references">References</a>
+        <a href="#examples">Examples</a>
     </div>
 
     <br />
 
     <div class="canvas">
         <script src="assets/js/sketch.js"></script>
+    </div>
+
+    <a name="about"></a>
+    <div id="about">
+        <h1 class="topic-header">About p5.js</h1>
+        <div class="content-container">
+            
+            <p>p5.js is a Javascript library that starts with the original goal of <a href="http://processing.org/" target="_blank">Processing</a> - 
+            to make coding accessible for artists, designers, educators, and begineers - and reinterprets this for today's web.</p>
+            <br />
+            <p>Using the original metaphor of a software sketchbook, p5.js has a full set of drawing functionality. However, 
+            you're not limited to your drawing canvas. You can think of your whole browser page as your sketch! For this, p4.js 
+            has addon libraries that make it easy to interact with other HTML and HTML5 objects, inclluding text, input, video, webcam, and sound.</p>
+            <br />
+            <p>p5.js is a new interpretation, not an emulation or port, and it is in active development. You can also read how this 
+            <a href="https://github.com/processing/p5.js/wiki/Frequently-Asked-Questions#how-is-this-different-than-processingjs" target="_blank">differs from processing.js</a>, 
+            or about how this <a href="https://github.com/processing/p5.js/wiki/Processing-transition" target="_blank">relates to Processing</a>.</p>
+            <br />
+
+        </div>
+    </div>
+
+    <a name="getting-started"></a>
+    <div id="getting-started">
+        <h1 class="topic-header">Getting Started</h1>
+        <div class="content-container">
+            <p>This tutorial requires the use of the p5.js library and its online editor.</p>
+            <p>You can do this on either the p5.js online editor or your own IDE .</p>
+            <p>To use p5.js in your project, include the following scripts in your HTML page:</p>
+            <div class="clearpadding w3-code w3-border notranslate htmlHigh">
+                <div>
+
+                    <span class="tagnamecolor" style="color: brown">
+                        <span class="tagcolor" style="color: mediumblue"><</span>script
+                        <span class="attributecolor" style="color: red">
+                            src
+                            <span class="attributevaluecolor" style="color:mediumblue">="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></span>
+                        </span>
+                    </span>
+                    <span class="tagnamecolor" style="color: brown">
+                        <span class="tagcolor" style="color: mediumblue"><</span>/script<span class="tagcolor" style="color: mediumblue">></span>
+                    </span>
+
+                    <br />
+
+                    <span class="tagnamecolor" style="color: brown">
+                        <span class="tagcolor" style="color: mediumblue"><</span>script
+                        <span class="attributecolor" style="color: red">
+                            src
+                            <span class="attributevaluecolor" style="color:mediumblue">="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></span>
+                        </span>
+                    </span>
+                    <span class="tagnamecolor" style="color: brown">
+                        <span class="tagcolor" style="color: mediumblue"><</span>/script<span class="tagcolor" style="color: mediumblue">></span>
+                    </span>
+
+                    <br />
+
+                    <span class="tagnamecolor" style="color: brown">
+                        <span class="tagcolor" style="color: mediumblue"><</span>script
+                        <span class="attributecolor" style="color: red">
+                            src
+                            <span class="attributevaluecolor" style="color:mediumblue">="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></span>
+                        </span>
+                    </span>
+                    <span class="tagnamecolor" style="color: brown">
+                        <span class="tagcolor" style="color: mediumblue"><</span>/script<span class="tagcolor" style="color: mediumblue">></span>
+                    </span>
+
+                    <br />
+                </div>
+            </div>
+            <p>Once you have done that, you are ready to start using p5.js!</p>
+        </div>
+        <br />
+    </div>
+
+    <a name="tutorial"></a>
+    <div id="tutorial">
+        <h1 class="topic-header">Tutorial</h1>
+        <div class="content-container">
+            <p>This is where the tutorial content starts and is entered.</p>
+        </div>
+        <br />
+    </div>
+
+    <a name="documentation"></a>
+    <div id="documentation">
+        <h1 class="topic-header">Documentation</h1>
+        <div class="content-container">
+            <p>Content regarding documentation related to the tutorial goes here.</p>
+            <p>This includes images of written code and what it should look like.</p>
+        </div>
+        <br />
+    </div>
+
+    <a name="references"></a>
+    <div id="references">
+        <h1 class="topic-header">References</h1>
+        <div class="content-container">
+            <p>Other information regarding the tutorial project goes here.</p>
+        </div>
+        <br />
+    </div>
+
+    <a name="examples"></a>
+    <div id="examples">
+        <h1 class="topic-header">Examples</h1>
+        <div class="content-container">
+            <p>Examples of the code for the tutorial project will go here.</p>
+        </div>
+        <br />
     </div>
 </body>
 </html>
