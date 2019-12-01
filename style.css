@@ -1,5 +1,6 @@
 * {
 	margin: auto;
+	font-family: Helvetica;
 }
 
 body {
@@ -39,10 +40,11 @@ header {
 }
 
 #canvas {
-	width: 400px;
-	height: 400px;
+	height: 440px;
+	width: 560px;
+	box-sizing: border-box;
 	background-color: white;
-	box-shadow: 5px 5px;
+	box-shadow: 10px 10px #999999;
 }
 
 footer {

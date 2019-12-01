@@ -1,5 +1,5 @@
-var canvas_height = 400;
-var canvas_width = 400;
+var canvas_height = 440;
+var canvas_width = 560;
 
 var menuOpen = false;
 var colorOpen = false;
@@ -18,8 +18,6 @@ var prev_mouseY;
 var strk = 10;
 
 var current_brush_size = 0;
-
-
 
 function setup() {
 	var canvas = createCanvas(canvas_width, canvas_height);
