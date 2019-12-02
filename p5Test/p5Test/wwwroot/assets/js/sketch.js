@@ -1,12 +1,9 @@
-﻿// .save(name.ext);
-
-var img;
+﻿var cnv;
 
 function setup() {
     cnv = createCanvas(400, 300);
-    strokeWeight(10);
-    stroke(0);
-    centerCanvas();
+    
+    centerCanvas(cnv);
 }
 
 function draw() {

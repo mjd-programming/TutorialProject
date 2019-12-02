@@ -1,0 +1,50 @@
+* {
+	margin: auto;
+}
+
+body {
+	background-color: #eeeeee;
+	overflow: hidden;
+}
+
+header {
+	height: 50px;
+	background-color: #999999;
+	width: 100%;
+}
+
+.header-button {
+	box-sizing: border-box;
+	float: left;
+	height: 50px;
+	padding: 15px;
+}
+
+.header-button:hover {
+	color: #dddddd;
+	background-color: #bbbbbb;
+}
+
+.header-button:active {
+	color: #eeeeee;
+	background-color: #dddddd;
+}
+
+#page-container {
+	width: 100%;
+	box-sizing: border-box;
+	min-height: 100%;
+	background-color: #e9e9e9;
+	padding: 50px;
+}
+
+#canvas {
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	box-shadow: 5px 5px;
+}
+
+footer {
+	
+}
