@@ -11,6 +11,10 @@ body {
     height: 100%;
 }
 
+p {
+    margin-left: 2%;
+}
+
 .page-header {
     margin-top: 1%;
     margin-left: 10px;
@@ -33,6 +37,10 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+}
+
+.initiate {
+    background-color: yellow;
 }
 
 .content-container {
@@ -74,4 +82,94 @@ body {
 .clearpadding {
     padding: 0;
     margin: 0;
+}
+
+.tutorial-header {
+    font-size: 22px;
+    margin-left: 1%;
+}
+
+.create-project {
+    position: relative;
+    left: 50px;
+    width: 700px;
+    height: 500px;
+}
+
+.setup-solution {
+    position: relative;
+    left: 50px;
+}
+
+.import-script {
+    position: relative;
+    left: 50px;
+}
+
+.canvas-setup {
+    position: relative;
+    left: 50px;
+}
+
+.hint {
+    position: relative;
+    left: 25px;
+    font-size: 14px;
+}
+
+.draw-setup {
+    position: relative;
+    left: 50px;
+}
+
+.menu-option-color {
+    position: relative;
+    left: 50px;
+}
+
+.menu-option-size {
+    position: relative;
+    left: 50px;
+}
+
+.menu-option-shape {
+    position: relative;
+    left: 50px;
+}
+
+.close-menu-option {
+    position: relative;
+    left: 50px;
+}
+
+.menu-handler {
+    position: relative;
+    left: 50px;
+}
+
+.header-button-setup {
+    position: relative;
+    left: 50px;
+}
+
+.html-setup {
+    position: relative;
+    left: 50px;
+}
+
+.css-setup {
+    position: relative;
+    left: 50px;
+}
+
+.finished-project {
+    position: relative;
+    left: 50px;
+    border: 1px solid black;
+    width: 1225px;
+    height: 500px;
+}
+
+.reference-links {
+    margin-left: 2%;
 }
